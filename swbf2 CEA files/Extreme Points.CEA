@@ -1,0 +1,19 @@
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+00580F5D:
+jmp newmem
+nop
+nop
+returnhere:
+
+newmem: 
+add [ebx+000001f0],256
+
+originalcode:
+add [ebx+000001f0],cx
+
+exit:
+jmp returnhere

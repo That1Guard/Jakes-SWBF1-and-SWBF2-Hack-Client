@@ -1,0 +1,151 @@
+Infinite Health: 
+004D63AB - nop
+
+Hardcore Mode: 
+004D636C - nop
+
+One Hit Kill: 
+004D636C - code injection
+
+Infinite Ammo:
+005FC38C - nop
+005FC389 - nop
+
+Infinite Stamina and Overheat:
+004D7014 - nop
+
+Unlimited Jump:
+005426B1 - nop
+00550052 - nop
+
+Super Jump:
+0054BB12 - code injection
+
+Super Sprint:
+005501CC - code injection
+
+Rapid Fire:
+00633406 - code change
+006398D7 - code change
+
+Instant Fix/Heal:
+0066A5B2 - code change
+
+Invisibility:
+0054FE64 - code injection
+
+No Tumble:
+0054D6BD - nop
+0054D6C6 - nop
+0054D66E - nop
+0054D6D0 - nop
+0054D6D3 - nop
+
+Deny CP Capture:
+0065BD03 - nop
+
+Capture Only Neutral:
+0065B5E5 - nop
+
+Instant CP Capture:
+0065BD03 - code injection
+0065B5E5 - code injection
+
+Unlimited flag capture:
+00670876 - nop
+
+Infinite item timer:
+00520982 - nop
+
+Instant Awards:
+00661474 - code injection
+
+Float Jump:
+005367F6 - code injection
+
+Death Regions and Boundaries:
+006509E1 - leaving battlefield - nop
+004D51CF - death region - nop
+
+Infinite Jetpack:
+0054C2C2 - nop
+00550E94 - nop
+
+Mission Timer:
+006715CD - nop
+
+Infinite Droideka Shield:
+004D625D - nop
+004D5F1C - instant recharge - code injection
+
+Extreme Points:
+00661474 - code injection
+00662516 - code injection
+
+DTG Fix:
+00627420 - nop
+
+Respawn Timer:
+0046EA50 - change to mov [esp],3F000000
+
+Remove Landing Delay:
+0054B425 - nop
+
+Land Anywhere:
+00505EF4 - nop
+
+Instant Reload:
+0062832D - code change
+
+No Clip:
+0042C907 - nop
+
+Fall Through Current Object:
+0042D480 - nop
+
+Hover:
+0053329B - nop
+005523D1 - nop
+
+Force:
+00550D73 - change code to make comment 0 - instant force recover
+00551200
+00550BE5
+0054F28C
+0054FAFD
+
+Map Ceiling:
+0046DA0D - code injection
+
+Instant Vehicle Respawn:
+006736D8 - nop
+
+ifs_pc_spawnselect:
+0069A0E0
+
+Fall Damage:
+00546CDD - nop
+
+Super Tank Boost:
+00515F12 - code injection
+
+Super Tank Forward Speed:
+00515F1A - code injection
+
+Force Push:
+0061877A - nop
+
+Force Pull:
+006187D2 - nop
+
+Bryants chat hack crash patch:
+0072E794 - nop
+0072E799 - nop
+
+WPE Crash area of interest:
+0090C5D9
+Normal packet - FF FF AA 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF
+Packet used to crash - FF FF (player id) (any bytes)
+
+Server manager banned word in player name:
+HxD - 00037E30

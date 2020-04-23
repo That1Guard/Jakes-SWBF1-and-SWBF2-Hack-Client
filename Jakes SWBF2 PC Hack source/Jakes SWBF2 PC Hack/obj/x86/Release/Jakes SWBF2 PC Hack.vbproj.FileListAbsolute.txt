@@ -1,0 +1,13 @@
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Release\Jakes SWBF2 PC Hack.exe
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Release\Jakes SWBF2 PC Hack.pdb
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Release\Jakes SWBF2 PC Hack.xml
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes_SWBF2_PC_Hack.AboutBox1.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes_SWBF2_PC_Hack.Form1.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes_SWBF2_PC_Hack.Resources.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes SWBF2 PC Hack.exe
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes SWBF2 PC Hack.xml
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes SWBF2 PC Hack.pdb
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Release\Jakes_SWBF2_PC_Hack.AboutBox2.resources

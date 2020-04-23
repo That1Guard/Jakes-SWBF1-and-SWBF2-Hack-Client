@@ -1,0 +1,26 @@
+Move around after entering command post:
+
+005A6738:
+restore -> 00 00 00 00 00 7F AD B0 05 C7
+
+change -> 90 90 90 90 90 90 90 90 90 90
+
+
+
+
+Name tags:
+
+004DD739:
+restore -> 00 00 02 34 8E 89
+
+change -> 90 90 90 90 90 90
+
+
+
+
+See stuff through walls:
+
+00504AD0:
+restore -> 00 00 01 74 C2 84 8D
+
+change -> 00 00 01 64 C2 84 8D

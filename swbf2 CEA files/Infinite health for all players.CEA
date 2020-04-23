@@ -1,0 +1,44 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(check2)
+label(exit)
+
+newmem:
+cmp [edi+148],1F000000
+jne check2
+fstp dword ptr [esp+24]
+jmp exit
+
+check2:
+cmp [edi+148],1F00000C
+jne originalcode
+fstp dword ptr [esp+24]
+jmp exit
+
+originalcode:
+fsub dword ptr [esp+18]
+fstp dword ptr [esp+24]
+
+exit:
+jmp returnhere
+
+"BattlefrontII.exe"+6FC1A:
+jmp newmem
+nop
+nop
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"BattlefrontII.exe"+6FC1A:
+fsub dword ptr [esp+18]
+fstp dword ptr [esp+24]
+//Alt: db D8 64 24 18 D9 5C 24 24

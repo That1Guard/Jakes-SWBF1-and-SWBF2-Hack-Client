@@ -1,0 +1,7 @@
+search for:
+
+c7 04 24 00 00 70 41
+
+Address should be: 0006EA55
+
+Change 70 41 to 00 3f

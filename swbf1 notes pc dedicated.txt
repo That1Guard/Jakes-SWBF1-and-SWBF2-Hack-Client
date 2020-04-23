@@ -1,0 +1,48 @@
+Infinite ammo
+0055D04E - nop
+00561552 - nop
+00557705 - nop
+0057B6A6 - nop
+
+Infinite reinforcements:
+005676E8 - nop
+0057B6A7 - nop
+
+Rapid fire:
+005614F7 - code change
+0055CEE7 - code change
+
+Infinite Health:
+00490C76 - nop
+
+Infinite droideka shield:
+0048FC6B - nop
+00490C07 - nop
+
+Infinite jetpack:
+004DA132 - nop
+004E6D28 - nop
+
+No Spread:
+0055D0A6 - nop
+
+Disable Recon droids:
+0048FBD4 - nop
+
+Infinite recon droid energy:
+0048FC28 - nop
+
+Disable death barriers and boundaries:
+0048FDAF - nop
+
+No overheat:
+0055D05C - nop
+00558447 - nop
+
+Instant Respawn:
+00578A1D - code change
+00454600 - nop
+
+Super Jump:
+004D97FB - code injection
+004DA6E3 - code injection

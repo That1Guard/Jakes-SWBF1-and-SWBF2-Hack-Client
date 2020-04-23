@@ -1,0 +1,78 @@
+Infinite Reinforcements:
+0057BCF8 - nop
+0058B3F7 - nop
+
+Instant Win:
+0057BCF8 - code injection
+
+Respawn Timer:
+0058929C - code change
+004B1130 - nop
+
+Rapid Fire:
+00573737 - code change - B7
+00576E27 - code change - B7
+
+Infinite Health:
+004DAE0A - nop
+
+Hardcore Mode:
+004DAE06 - nop
+
+One Hit Kill:
+004DAE06 - code injection
+
+Hover:
+0051028B - nop
+
+Freeze Player Position:
+00510286 - nop
+00510291 - nop
+
+Infinite Ammo:
+0056F2D5 - nop
+0057389E - nop
+00576E82 - nop
+
+Infinite Droideka Shield:
+004DA1A7 - nop
+004DA1AB - nop
+
+Disable Droideka Shield:
+004DA1AE - nop
+
+Infinite Jetpack:
+00513232 - nop
+0051D87F - nop
+
+No Overheat:
+005738AC - nop
+
+No Spread:
+005738F6 - nop
+
+Deny Shooting:
+0056E9FF - nop
+
+Shoot Both Primary or Secondary Weapons at Once:
+0056FB5E - nop
+
+Walk Through Walls:
+00510552 - nop
+
+Fall Through Current Object:
+00513C8E - nop
+
+Disabel Death Regions and Boundaries:
+004DA2C1 - nop
+0057BE4B - nop
+
+Instant Death Apon Leaving Battlefield:
+0057BE19 - nop
+
+No Clip:
+0048E645 - nop
+
+Hacked Radar:
+0059EA47 - change byte to 0A
+0059EA51 - change byte to 00

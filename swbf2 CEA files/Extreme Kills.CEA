@@ -1,0 +1,110 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048) //2kb should be enough
+label(returnhere)
+label(originalcode)
+label(exit)
+
+00581BFD:
+jmp newmem
+returnhere:
+
+newmem:
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+inc word ptr [ebp+ecx*2+04]
+originalcode:
+inc word ptr [ebp+ecx*2+04]
+
+exit:
+jmp returnhere
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00581BFD:
+inc word ptr [ebp+ecx*2+04]
+//Alt: db 66 FF 44 4D 04

@@ -1,0 +1,29 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048) //2kb should be enough
+label(returnhere)
+label(originalcode)
+label(exit)
+
+004BF022:
+jmp newmem
+nop
+returnhere:
+
+newmem:
+fmul dword ptr [esi+0000069c]
+
+originalcode:
+fmul dword ptr [esi+0000069c]
+
+exit:
+jmp returnhere
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+004BF022:
+fmul dword ptr [esi+0000069c]
+//Alt: db D8 8E 9C 06 00 00

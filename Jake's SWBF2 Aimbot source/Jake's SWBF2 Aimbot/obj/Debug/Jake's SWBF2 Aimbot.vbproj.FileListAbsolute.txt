@@ -1,0 +1,15 @@
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.Resources.resources
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake's SWBF2 Aimbot.vbproj.GenerateResource.Cache
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\bin\Debug\Jakes SWBF2 Aimbot.exe.config
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\bin\Debug\Jakes SWBF2 Aimbot.exe
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\bin\Debug\Jakes SWBF2 Aimbot.pdb
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\bin\Debug\Jakes SWBF2 Aimbot.xml
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jakes SWBF2 Aimbot.exe
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jakes SWBF2 Aimbot.xml
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jakes SWBF2 Aimbot.pdb
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.Form1.resources
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.Hacks.resources
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.aimbot.resources
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.settings_window.resources
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.setkey.resources
+C:\Users\Jake\Documents\Visual Studio 2012\Projects\Jake's SWBF2 Aimbot\Jake's SWBF2 Aimbot\obj\Debug\Jake_s_SWBF2_Aimbot.Output.resources

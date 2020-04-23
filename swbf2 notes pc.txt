@@ -1,0 +1,180 @@
+Rapid Fire:
+0055F2D6 - code change - B4
+00564EE7 - code change - B4
+
+No Charge Up/Cool Down:
+0055F0FC - code injection
+0055F933 - code injection
+
+Name Tags:
+004DD739 - nop
+
+Super Sprint:
+004BF022 - code injection
+
+Unlimited Jump:
+004C272B - nop
+
+Force people to be the same class:
+005A7BEB - just visual
+
+Move around after entering command post:
+005A6738 - nop
+
+See stuff through walls:
+005BD538 - change 64 to 74
+00504AD0 - better option, change 74 to 64 comes with name tags (only one at a time)
+
+View what team the player is on when entering command post area:
+0057ABBF
+0057ABCA
+0057ABE0
+
+Respawn timer:
+00589404 - tells respawn timer to go back up
+00589474 - tells respawn timer to go back up
+00589400 - change to je 
+00589470 - change to je
+0042F61A - cooldown - change to fld dword ptr [007DBDE8]
+
+Infinite Health:
+0046FC2C - lose health
+0046F3DB - gain health
+
+Infinite Stamina:
+00470D4B - nop
+
+Infinite Hero Health:
+00574531 - code change
+
+Hover:
+0049D85B - nop
+004C1058 - nop
+
+Hardcore Mode:
+0046FBED - nop
+
+Infinite Ammo:
+0055F4F6 - nop
+0055F4F3 - nop 
+0053E6EC - nop
+
+Infinite Droideka Shield:
+0046F4DE - nop
+0046F4F5 - better option, change to fadd dword ptr [esi+14]
+
+Infinite Jetpack:
+004C20D2 - nop
+004BFC6D - nop
+
+No Overheat:
+0055F543 - nop
+
+Instant Fix:
+00587002 - code change
+
+Instant Charge Up:
+0055F734 - code change
+
+No Spread:
+0055F5A1 - nop
+
+Infinite Item Timer:
+004A7CED - nop
+
+Plant More Items:
+0056448C - nop
+
+One Hit Kill:
+0046FBED - code injection
+
+Death Regions and Boundaries:
+0046F666 - nop
+
+Mission Timer:
+0058BA8D - nop
+
+Infinite Reinforcements:
+0058AA78 - nop
+0058AE98 - nop
+
+Extreme Points:
+00580F5D - code injection
+
+Super Jump:
+004C19CF - code injection
+
+Invisibility:
+004BED58 - code injection
+
+Walk Through Walls:
+00401018 - nop
+
+Fall Through Current Object:
+004BA92B - nop
+
+Max Health of Units:
+004DCFE6
+004DD01B
+
+Instant Awards:
+0057FE86 - code injection
+00581030 - code injection
+
+Command Post Capture:
+0057B718 - already captured command posts - nop
+0057B072 - neutral command posts - nop
+
+Instant CP Capture:
+0057B718 - code injection
+0057B072 - code injection
+
+No clip:
+004040C8 - nop
+
+Game Spaz Attack (you've been warned):
+00405272 - nop
+
+Instant Reload:
+0055960D - code change
+
+Kill Everybody:
+004C2CA0 - nop
+
+Lock X and Z Coordinates:
+0049D856 - nop
+0049D861 - nop
+
+Land Anywhere:
+0048C9A8 - nop
+
+See Through Walls:
+00695386 - jne
+
+Map Ceiling:
+0042E75D - code injection
+
+Instant Vehicle Respawn:
+0058CE16: - nop
+
+Possible Infinite Tanks:
+00404E1F - nop
+
+Change units anywhere:
+004C3F9E - nop (seems to be only single player)
+
+Fall Damage:
+004C9F02 - nop
+
+Command Post Unit Swap Range:
+004DE794 - code injection
+
+Kills to player number:
+00435A74 - change to esi (v1.1 only) - HxD, scan for 83 C4 40 51 68 4C F0 7B 00. Change 51 to 56
+00435924 - change to esi (v1.0 only)
+
+Ping to player number:
+00435A28 - change to esi
+
+No bothan invisibility: (may be client sided)
+00566109 - change to [007DBCE1]

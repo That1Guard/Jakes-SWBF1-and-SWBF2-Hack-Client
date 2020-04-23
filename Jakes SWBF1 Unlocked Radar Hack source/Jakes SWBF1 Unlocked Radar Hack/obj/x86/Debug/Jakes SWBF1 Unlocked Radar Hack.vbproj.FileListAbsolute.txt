@@ -1,0 +1,11 @@
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\bin\Debug\Jakes SWBF1 Unlocked Radar Hack.exe
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\bin\Debug\Jakes SWBF1 Unlocked Radar Hack.pdb
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\bin\Debug\Jakes SWBF1 Unlocked Radar Hack.xml
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\Jakes_SWBF1_Unlocked_Radar_Hack.Form1.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\Jakes_SWBF1_Unlocked_Radar_Hack.Resources.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\Jakes SWBF1 Unlocked Radar Hack.exe
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\Jakes SWBF1 Unlocked Radar Hack.xml
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 Unlocked Radar Hack\Jakes SWBF1 Unlocked Radar Hack\obj\x86\Debug\Jakes SWBF1 Unlocked Radar Hack.pdb

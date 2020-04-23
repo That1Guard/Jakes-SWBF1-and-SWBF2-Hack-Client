@@ -1,0 +1,3 @@
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes SWBF2 PC Dedicated Hack.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes SWBF2 PC Dedicated Hack.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes SWBF2 PC Dedicated Hack.pdb

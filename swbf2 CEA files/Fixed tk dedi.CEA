@@ -1,0 +1,32 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048) //2kb should be enough
+label(returnhere)
+label(originalcode)
+label(exit)
+
+006662E1:
+jmp newmem
+nop
+nop
+returnhere:
+
+newmem:
+inc word ptr [edi+eax*2]
+inc word ptr [edi+eax*2]
+originalcode:
+inc word ptr [edi+eax*2]
+lea eax,[edi+eax*2]
+
+exit:
+jmp returnhere
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+006662E1:
+inc word ptr [edi+eax*2]
+lea eax,[edi+eax*2]
+//Alt: db 66 FF 04 47 8D 04 47

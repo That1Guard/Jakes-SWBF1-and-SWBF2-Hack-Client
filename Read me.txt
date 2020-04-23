@@ -1,0 +1,7 @@
+This folder contains ALMOST all of the swbf2 projects that were created by me, VA, and the RAPTOR community. Within the note files is information on the hacks that were created and used within swbf2. Patches are also included and noted inside those files.
+
+The CEA files were created for older swbf2 hacks, they could possibly function incorrectly. (use with caution)
+
+All of the projects contained in this folder are old and outdated and may contain confusing or redundant code. Aside from these points, ALL projects were also unfinished and bugs may still exist along with incorrect functions causing the desired outcome to be affected. However, for the most part, the stated functions should be able to carry out their intended result.
+
+Final point: These hacks and tools were created with a combination of Cheat Engine, Ollydebug, HxD hex editor, Wireshark, WPE Packet editor and Visual Studio.

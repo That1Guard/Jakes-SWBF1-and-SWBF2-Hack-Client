@@ -1,0 +1,20 @@
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox1.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox2.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox3.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox4.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox5.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.Form1.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.Resources.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Debug\Jakes SWBF2 Hack v6.0.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Debug\Jakes SWBF2 Hack v6.0.pdb
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Debug\Jakes SWBF2 Hack v6.0.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes SWBF2 Hack v6.0.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes SWBF2 Hack v6.0.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes SWBF2 Hack v6.0.pdb
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\bin\Debug\Jakes SWBF2 Hack v6.0.exe.config
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox6.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox7.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF2 PC Hack\Jakes SWBF2 PC Hack\obj\x86\Debug\Jakes_SWBF2_PC_Hack.AboutBox8.resources

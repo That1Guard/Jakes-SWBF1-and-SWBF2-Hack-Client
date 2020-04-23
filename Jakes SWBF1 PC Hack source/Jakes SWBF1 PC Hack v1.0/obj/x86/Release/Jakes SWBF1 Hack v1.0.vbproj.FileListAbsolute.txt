@@ -1,0 +1,14 @@
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\bin\Release\Jakes SWBF1 Hack v1.0.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\bin\Release\Jakes SWBF1 Hack v1.0.pdb
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\bin\Release\Jakes SWBF1 Hack v1.0.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes_SWBF1_PC_Hack_v1._0.AboutBox1.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes_SWBF1_PC_Hack_v1._0.AboutBox2.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes_SWBF1_PC_Hack_v1._0.AboutBox3.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes_SWBF1_PC_Hack_v1._0.Form1.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes_SWBF1_PC_Hack_v1._0.Resources.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes SWBF1 Hack v1.0.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes SWBF1 Hack v1.0.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Release\Jakes SWBF1 Hack v1.0.pdb

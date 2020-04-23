@@ -1,0 +1,849 @@
+The following notes were taken from hacking the swbf2 client on the ps2 console. Some values and scan methods may be inaccurate for finding the desired result.
+
+Tank Energy: 1112014848
+
+Inf. Jetpack: 1065353216
+
+Inf. Health: 17558 (Boba's main health)
+
+Inf. Leaving Battlefield: 2147483711
+
+Inf. Rockets: 4227072 (Boba's rockets)
+
+Inf. Flamethrower: 2147483712
+
+Inf. Energy: 1120403456
+
+Teleport: 17078 (certain location in Mos Eisley)
+
+Juggle Lightsaber: 13487564
+
+Presision Rifle: 2147483836/2147483709 (max)
+
+Inf. Gun Ammo: 1065353216
+
+Walk On Air: 33554432 (freeze hieght value too)
+
+Strong Gravity: 3164854026
+
+More: 81792
+
+Wind: 0- 3239000000 3240000000
+
+Jump: 3164854026
+
+Hieght: 1118831470
+
+Rocket Dude Health: 1141473280/17417
+
+Ku-dai: 17558
+
+Engineer: 1137180672 / 400/17352
+
+Sniper: 1133903872/17302
+
+Trooper: 1137180672/17352
+
+Mines: 16448
+
+Mines Inf. Address: 05033430 (increase by 1)
+
+Inf. Turrets Address: 05007B88 (increase by 2)
+
+Turret Health: 16968
+
+Shield: 4537216
+
+Drodika Energy: 3355443205
+
+Death: 3722304989
+
+Turret: 13487564
+
+Rocket: 3221225536
+
+Skate: 1077750000
+
+Tank Boost: 3452698949
+
+Marine: 17352
+
+Death: 3722304989
+
+Saber: 3452816841 (3452816840-inf.)(3452816843-none)
+
+cruiser: 4637520
+
+arc1: 4525216
+
+bomber: 4561984
+
+reload: 64
+
+primary: 2147483712
+
+seconday: 2147483711
+
+rapid: 2147483708
+
+fire: 3452816384/3452816448
+
+detpack: 2147483711/2147483712
+
+gernades: 2147483712
+
+no-jet jump: 31
+
+Rapid grenade: 2147483708
+
+tank: 4585984
+
+side winder: 3000000000-3200000000-3183810413(reset)-1077750000(side activation)
+
+respawn: 1050000000-1100000000 (1214245305)
+
+Speeders: 17583
+
+DL44: 147328
+
+weapon overheat: 575
+
+Bases:
+Top : 32785
+Nuetral:32768
+Bottom: 32802
+
+
+body anim:
+1-crouch
+2-croutch
+3-sprint
+4-dropped
+5-roll
+6-slo-mo
+7-jedi
+8-fall
+9-twitch
+10-fall2
+11-camera shake,no move
+12-no move
+13-half sprint roll
+14-choke
+22-falling
+24-static walk
+25-tumble
+26-moving body
+27-moon walk
+29-shake
+30-alien walk
+31-dead
+38-fly faster
+41- tumble up
+47-shoot while dead
+51-zoomx1
+52-zoomx2
+53-zoomx3
+77-rapid fire
+
+
+Jed ATK anim:
+0-norm
+1-return
+2-block
+3-jump
+4-crouch
+5-roll
+6-run
+7-backslash
+8-hack
+9-attack
+10-back reach
+11-sprint
+12- sprint-no move
+13-up
+14-down
+15-down-no move
+16-shake
+17-freeze
+26-keep tap for kill
+35-jump forv
+43-car attack
+50-axe carry
+53-bunny run att
+66-block att
+68-crouch flicker
+75-sparckle
+101-ramble of death
+107- saber swing flicker
+116- no move
+1024-up up up (only-darth)
+
+Wind:0-(south)1075414834-1091511186
+(vader)3254910976-3262179970-3272179970
+
+*Explanation: Must be traveling in a north/south direction. Do a value between scan of 1075414834-1091511186. Walk as slow as you can, and do change. Increase you speed and to increased value. You should be able to figure out how to get the value from here. To apply wind as fast as Vader?s running speed type 3254910976. You can also type high numbers like 3262179970-3272179970 but will send you out in battlefield.
+
+
+
+Zoom: 3452764226 >in> 3452764482
+
+Doors: Open- 2147483713 Closed- 65
+
+
+
+
+Bases:
+Top : 32785
+Nuetral:32768
+Bottom: 32802
+
+*Explanation: The bases are divided up by the top team and bottom teams when picking your side (where you have the choice of auto assign and spectate). Ex: the top teams would be the Heroes, bottom are Villains. If you freeze a base on neutral and try to capture it, you will constantly gain points. If you swap a top value with a bottom value, you have to leave the server and rejoin to see the changes. Or change the values during a loading screen before you load in.
+
+
+Tank Energy: 1112014848
+
+*Explanation: This is when the energy is full
+
+
+
+
+Inf. Jetpack: 1065353216
+
+*Explanation: This is then jetpack is full
+
+
+
+
+Inf. Leaving Battlefield: 2147483711
+
+*Explanation: This is when you?re in the battlefield. When outside, keep clicking changed value
+
+
+
+
+Inf. Energy: 1120403456
+
+*Explanation: When a person?s energy is full
+
+
+
+
+Teleport: 17078 (certain location in Mos Eisley)
+
+*Explanation: Where the arena opens up, there?s a building that you use to get outside the map. Land on the little space where you need to be pushed out (where your standing on air). Search for this number. Hop out and do changed. You should narrow it down to 5 or so values. Type 0 for each one until you teleport. If frozen, you are prevented from moving north or south. If you type in a specific number, you will be teleported in the north/south direction. This does not give you east/west coordinates. To find value on other maps, move in a north/south direction and do change value scans.
+
+
+zero's:
+1-crouch
+2-croutch
+3-sprint
+4-dropped
+5-roll
+6-slo-mo
+7-jedi
+8-fall
+9-twitch
+10-fall2
+11-camera shake,no move
+12-no move
+13-half sprint roll
+14-choke
+22-falling
+24-static walk
+25-tumble
+26-moving body
+27-moon walk
+29-shake
+30-alien walk
+31-dead
+38-fly faster
+41- tumble up
+47-shoot while dead
+51-zoomx1
+52-zoomx2
+53-zoomx3
+77-rapid fire
+
+*Explanation: These are the different body animations. To find the value, crouch and search 1. Stand and search 0. As you jump search 4. #? 3-20 must remain frozen for the change, to occur. Any number higher can be left unfrozen. When you die when value is froze, the body will remain and spurt out health
+
+
+
+invisible: 256 crouch, 1
+
+*Explanation: Search for 256 while crouching. Stand and look for 0. Jump and find 1024. Type in 1 to go invisible, 0 to revert. When you die when value is froze, the body will remain and spurt out health
+
+
+
+
+Jedi attacks:
+0-norm
+1-return
+2-block
+3-jump
+4-crouch
+5-roll
+6-run
+7-backslash
+8-hack
+9-attack
+10-back reach
+11-sprint
+12- sprint-no move
+13-up
+14-down
+15-down-no move
+16-shake
+17-freeze
+26-keep tap for kill
+35-jump forv
+43-car attack
+50-axe carry
+53-bunny run att
+66-block att
+68-crouch flicker
+75-sparckle
+101-ramble of death
+107- saber swing flicker
+116- no move
+1024-up up up (only-darth)
+
+*Explanation: The attack animations for jedi?s. This was done with Vader but mosts are similar. When frozen and you die, some numbers will keep you boding attacking.
+
+
+
+
+
+Rapid Fire: 13487564
+Rapid Fire 2: 0-standby, 1-shooting, 4-reloading
+
+*Explanation: When a weapon is not being shot, search for this. The number changes during a shot and also during reloading. This number can be used as well for tanks and ships.
+
+
+Healths:
+Rocketeer: 1141473280 or 17417
+
+Ku-dai: 17558
+
+Engineer: 1137180672 or 17352
+
+Sniper: 1133903872 or 17302
+
+Trooper: 1137180672 or 17352
+
+Space Marine: 17352
+
+Mines: 16448
+
+Auto Turret Health: 16968
+
+
+
+Mines Inf. Address: 05033430 (increase by 1)
+Inf. Turrets Address: 05007B88 (increase by 2)
+
+*Explanation: This will allow you to place more than the normal amount of objects if value is frozen. Max mines possible 30(?). Max turrets possible 6. Every time you place a mine down the number will increase by one. Turrets increase by 2. I forgot the number of increase for health packs and detpacks but it?s the same process (increase value each time one is placed).
+
+
+
+
+Shield: 4537216
+
+*Explanation: Sheild of a droideka when full
+
+
+
+Drodika Energy: 3355443205
+
+*Explanation: Droideka?s energy when full
+
+
+
+Tank Boost: 3452698949
+
+*Explanation: Full energy of tanks
+
+
+
+More Healths:
+cruiser: 4637520
+arc1: 4525216
+v-wing: 4561984
+bomber: 4561984
+droit tri: 147328
+
+
+
+Inf Ammo- 64
+primary: 2147483712
+seconday: 2147483711
+
+*Explanation: To get infinite ammo, search for 64 AS you reload. Once finished, search for 2147483712 or 2147483711 depending if you are looking for primary (ex: guns) or secondary (ex: mines) weapons. Freeze the prime or sec number to have inf ammo.
+
+
+
+
+tank respawn timers:
+-0.03999999910593034100000-4500000(reset-12405964-12013472plane-317324263-123954794-123954
+79/3173242634speed)
+plane: 4300000-4080000
+
+*Explanation: Remind me to re-search these again.
+
+Tank Energy: 1112014848
+
+*Explanation: This is when the energy is full
+
+
+
+
+Inf. Jetpack: 1065353216
+
+*Explanation: This is then jetpack is full
+
+
+
+
+Inf. Leaving Battlefield: 2147483711
+
+*Explanation: This is when you?re in the battlefield. When outside, keep clicking changed value
+
+
+
+
+Inf. Energy: 1120403456
+
+*Explanation: When a person?s energy is full
+
+
+
+
+Teleport: 17078 (certain location in Mos Eisley)
+
+*Explanation: Where the arena opens up, there?s a building that you use to get outside the map. Land on the little space where you need to be pushed out (where your standing on air). Search for this number. Hop out and do changed. You should narrow it down to 5 or so values. Type 0 for each one until you teleport. If frozen, you are prevented from moving north or south. If you type in a specific number, you will be teleported in the north/south direction. This does not give you east/west coordinates. To find value on other maps, move in a north/south direction and do change value scans.
+
+
+
+
+Rapid Fire: 13487564
+Rapid Fire 2: 0-standby, 1-shooting, 4-reloading
+
+*Explanation: When a weapon is not being shot, search for this. The number changes during a shot and also during reloading. This number can be used as well for tanks and ships.
+
+
+
+
+Presision Rifle: 2147483836-standby, 2147483709-max spread
+
+*Explanation: Controls the accuracy of a blaster rifle, chain gun, pistol, etc. Freeze it on standby to prevent bullets from spraying.
+
+
+
+
+Walk On Air: 33554432
+
+*Explanation: When standing search for this value. When you jump it changes to 0. This will briefly let you walk on air. You will descend slowly to the ground if you do not have your height position frozen.
+
+
+
+Healths:
+Rocketeer: 1141473280 or 17417
+
+Ku-dai: 17558
+
+Engineer: 1137180672 or 17352
+
+Sniper: 1133903872 or 17302
+
+Trooper: 1137180672 or 17352
+
+Space Marine: 17352
+
+Mines: 16448
+
+Auto Turret Health: 16968
+
+
+
+Mines Inf. Address: 05033430 (increase by 1)
+Inf. Turrets Address: 05007B88 (increase by 2)
+
+*Explanation: This will allow you to place more than the normal amount of objects if value is frozen. Max mines possible 30(?). Max turrets possible 6. Every time you place a mine down the number will increase by one. Turrets increase by 2. I forgot the number of increase for health packs and detpacks but it?s the same process (increase value each time one is placed).
+
+
+
+
+Shield: 4537216
+
+*Explanation: Sheild of a droideka when full
+
+
+
+Drodika Energy: 3355443205
+
+*Explanation: Droideka?s energy when full
+
+
+
+
+
+Ice-Skates:1077750000
+
+*Explanation: When on a FLAT surface, the value is 0. Step on a slanted object (like stairs) and be sure to remains still (don?t slide). Once still, do a changed value scan, then keep clicking decreased for 5 seconds until you get around 15 values. Now type 1077750000 for each value until you notice your guy slightly hop. Freeze it at 1077750000 to ice-skate. Change the ?07? to any number between 07,08,09,10,11,12 to send you flying. If you freeze the changed number (say at 109750000) you will slowly rise. The higher number determines your speed. If applied to a wrong value, you guy will instantly die.
+
+
+
+Y-Axis hack: 3000000000-3200000000-3183810413(reset)-1077750000(side activation)
+
+*Explanation: Search for the number between 3000000000-3200000000 when inside of a IFT tank. The number constantly changes when in the tank, so do a lot of changed values. Search 0 when standing on the ground. You should be left with 2 values, which both work, be each have slight different effects. Once you type 1077750000 you will be on your side. Now for the differences between the two values. The first one is the normal one, when you type 0, you will be standing again. But when you type 0 for the second one, you will be standing at a slightly tilted angle. To fix this hop in any vehicle.
+
+
+
+
+Tank Boost: 3452698949
+
+*Explanation: Full energy of tanks
+
+
+
+
+Multiple Saber Throw: 3452816841(3452816840-inf.)(3452816843-none) 55-nothing
+
+*Explanation: Value can only be found one a person throws a saber at least once. Once thrown search for 3452816841. Now just replace the last digit with a 0 and freeze it 3452816840. To make the saber disappear, change the last two digits to 43 (3452816843)
+
+
+More Healths:
+cruiser: 4637520
+arc1: 4525216
+v-wing: 4561984
+bomber: 4561984
+droit tri: 147328
+
+
+
+Inf Ammo- 64
+primary: 2147483712
+seconday: 2147483711
+
+*Explanation: To get infinite ammo, search for 64 AS you reload. Once finished, search for 2147483712 or 2147483711 depending if you are looking for primary (ex: guns) or secondary (ex: mines) weapons. Freeze the prime or sec number to have inf ammo.
+
+
+
+Rapid grenades: 2147483708, 2147483709, 2147483711
+
+*Explanation: When not throwing search 2147483708. During the throw its 2147483709, and as it explodes its 2147483711. It?s not necessary to look for 2147483711.
+
+
+
+
+Inf stay on fire/electric/poison: 3452816384/3452816448
+
+*Explanation: Search for 3452816384. Get on fire, poisoned, or electrocuted and search changed. Freeze value on 3452816448. Once on fire again, you will stay on fire until value is unfrozen.
+
+
+
+Detpack throw glitch Hack version: 2147483711/2147483712
+
+*Explanation: The higher you look up, the farther the throw. Was found before the glitch. Blow up a detpack at least once. Put one one the floor and leave it. Search for 2147483711. Blow it up and search 2147483712. Put it on the floor again and search 2147483711. Freeze it and change it to 2147483712.
+
+
+
+Respawn timer: 1050000000-1100000000 (1214245305)
+6357107
+
+*Explanation: Do a value between scan for 1050000000-1100000000. Do changed value a couple of times cuz the timer is always ticking. You should come across two that are changing exactly the same. Select both for those are the two teams timers. You can either freeze it or change it to 0.
+
+
+Ghost planes:
+33554432-fly
+50331648-down
+16777216-up
+
+*Explanation: When lifting off in a plane, search for 16777216. During the flight search 33554432. Landing is 50331648. Now to fly through walls. As you fly the value will be 33554432. Type in 0 while flying and your plane will freeze. Type in 33554432 and you plane will take off again and you and go through walls. To reset this just land the plane. You can?t be shot or take damage. If you hop out when you freeze the plane at 0, you can?t get back in, so type 33554432 to blow it up.
+
+
+
+
+mine health: 1128792064 change 2000000000
+min timer: 1116000000-1339310701
+turret timer: 1080000000-1999999999
+
+*Explanation: To prevent mines/turrets for disappearing, search for their timer value and freeze it.
+
+tank respawn timers:
+-0.03999999910593034100000-4500000(reset-12405964-12013472plane-317324263-123954794-123954
+79/3173242634speed)
+plane: 4300000-4080000
+
+*Explanation: Remind me to re-search these again.
+
+
+Bases:
+Top : 32785
+Nuetral:32768
+Bottom: 32802
+
+*Explanation: The bases are divided up by the top team and bottom teams when picking your side (where you have the choice of auto assign and spectate). Ex: the top teams would be the Heroes, bottom are Villains. If you freeze a base on neutral and try to capture it, you will constantly gain points. If you swap a top value with a bottom value, you have to leave the server and rejoin to see the changes. Or change the values during a loading screen before you load in.
+
+
+
+zero's:
+1-crouch
+2-croutch
+3-sprint
+4-dropped
+5-roll
+6-slo-mo
+7-jedi
+8-fall
+9-twitch
+10-fall2
+11-camera shake,no move
+12-no move
+13-half sprint roll
+14-choke
+22-falling
+24-static walk
+25-tumble
+26-moving body
+27-moon walk
+29-shake
+30-alien walk
+31-dead
+38-fly faster
+41- tumble up
+47-shoot while dead
+51-zoomx1
+52-zoomx2
+53-zoomx3
+77-rapid fire
+
+*Explanation: These are the different body animations. To find the value, crouch and search 1. Stand and search 0. As you jump search 4. #? 3-20 must remain frozen for the change, to occur. Any number higher can be left unfrozen. When you die when value is froze, the body will remain and spurt out health
+
+
+
+Pistol overheat: 2147483652
+
+*Explanation: This value is when you?re not shooting. So changed value as your weapon heats up.
+
+
+
+invisible: 256 crouch, 1
+
+*Explanation: Search for 256 while crouching. Stand and look for 0. Jump and find 1024. Type in 1 to go invisible, 0 to revert. When you die when value is froze, the body will remain and spurt out health
+
+
+
+
+Jedi attacks:
+0-norm
+1-return
+2-block
+3-jump
+4-crouch
+5-roll
+6-run
+7-backslash
+8-hack
+9-attack
+10-back reach
+11-sprint
+12- sprint-no move
+13-up
+14-down
+15-down-no move
+16-shake
+17-freeze
+26-keep tap for kill
+35-jump forv
+43-car attack
+50-axe carry
+53-bunny run att
+66-block att
+68-crouch flicker
+75-sparckle
+101-ramble of death
+107- saber swing flicker
+116- no move
+1024-up up up (only-darth)
+
+*Explanation: The attack animations for jedi?s. This was done with Vader but mosts are similar. When frozen and you die, some numbers will keep you boding attacking.
+
+
+
+Prevent swapping weapons:
+RIGHT TRIGGERS (R1 R2)
+prime: 2
+sec: 3
+
+LEFT TRIGGERS (L1 L2)
+prime: 0
+
+*Explanation: Stops you from switching weapons. Ex: your rocket is 2 and your pistol is 3. If frozen on 2 you can?t use your pistol.
+
+
+
+
+Wind:0-(south)1075414834-1091511186
+(vader)3254910976-3262179970-3272179970
+
+*Explanation: Must be traveling in a north/south direction. Do a value between scan of 1075414834-1091511186. Walk as slow as you can, and do change. Increase you speed and to increased value. You should be able to figure out how to get the value from here. To apply wind as fast as Vader?s running speed type 3254910976. You can also type high numbers like 3262179970-3272179970 but will send you out in battlefield.
+
+
+
+Zoom: 3452764226 -in- 3452764482
+
+*Explanation: When not aiming, search 3452764226. While aiming search 3452764482. Freeze on either number to you can?t zoom in/out.
+
+
+
+
+Doors:
+Open- 2147483713
+Closed- 65
+
+*Explanation: Search 65 when doors are fully shut. Then search 2147483713 when fully opened. Although when you freeze doors shut and it looks opened, you can?t walk through it. You can also place mines/detpacks on it to look like it?s floating.
+
+HEALTH:
+ENERGY: 100
+Light=300 (sniper, jetty, bothan?)
+Normal= 400 (Normal troopers, shotty, commanders)
+Heavy=550 (rocket trooper)
+Wookie=
+
+Light Jedi=1200 (luke, obi, maul, ani, leia, emp)
+Med. Jedi= 1500 (han, dooku)
+Heavy Sith= 1800 (vader, grieve)
+Chewy= 2400
+
+Fighter= 1500?
+Multi-role= 2550?
+Bomber= 5000
+Capitol Shields= 200000
+
+Internals= 9000
+
+IFT-X=8000
+At-At= 60000
+
+DAMAGE MODIFIERS:
+Time bomb: 5000
+Blaster Rifle: 70 (on other infantry)
+Pistol: 60
+Missile: 1800?
+Sniper rifle: 200
+Grenade: 450
+Detpack: 1000?
+
+flight cieling: 20 dag, 200 tat, 25 cor, low -# death
+
+No walls: 1
+
+*Explanation: Best works on Mos Eisley and Naboo. Green float value. Some maps you will just fall through floor like Jabba?s palace or Tantive. You can?t walk through all walls. If you wish not to fall through floor on places like Tantive with walls off, simply stand still when the number is changed. Once you take a step you will fall. For walls on, the value is 1. To cut if off, change it to any number you wish as long as it?s not 1 (like 0). Hard to find so search for the address 00AD00D4.
+
+
+Slanted object jump: 1
+
+*Explanation: When a person steps on a slanted surface, you can control the physics. At normal state it?s 1. To be pushed down type in a positive # (10-50 for best results, really high numbers push you down to fast and will kill you). To be shot up type in a -# (I like putting -50 to -100 in conquest, and -200 and up for jedi?s). Hard to search for look for the address 00AD788C.
+
+
+
+Jetpack: 1
+
+Water level: 1 kash, 5 nab, -8 kam
+
+Spawn timer: 0-15
+
+Auto-turret timer- 0-60
+
+Leaving Battlefield timer: -1 (default) then value between 0 and 7
+
+
+
+heaths:
+rocket- 550
+trooper- 400
+scout- 300
+engineer- 400
+spy- 300
+wookie- 800
+officer- 400
+dark- 300
+commander- 400
+jet- 300
+mana- 400
+droideka- 550
+boba-1200
+jengo-1200
+maul-1200
+eperror-1200
+ani-1200
+duku-1500
+vader-1800
+greive-1800
+yoda-1200
+mace-1200
+leia-1200
+ayla-1200
+ku-1200
+luke-1200
+obi-1200
+solo-1500
+chew-2400
+
+gunships-2500
+norm-2250
+bomber-5000
+small-1500
+
+medical-200
+ammo-80
+
+*Explanation: These are the standard numbers of healths when full (missing Wampas, Jar Jar, Ewoks, Jabbas, Geonosis creatures, few tanks, space hanger health, shield generator, frigate, etc.)
+
+
+
+Ceiling height: 20 dag, 200 tat, 25 cor, low -# death
+
+*Explanation: This is the limit of the map that prevents you from going up higher. Green float value. Type a number higher than the standard height to go past it. You screen may seem choppy cuz your PS2 wasn?t suppose to go that high. Type 0 to prevent people from jumping on flat surfaced maps (Mos Eisly, Naboo, etc.) or to get chewies out from sciff. Type low -# like -999 to kill people when they are off the ground.
+
+
+
+No walls: 1
+
+*Explanation: Best works on Mos Eisley and Naboo. Green float value. Some maps you will just fall through floor like Jabba?s palace or Tantive. You can?t walk through all walls. If you wish not to fall through floor on places like Tantive with walls off, simply stand still when the number is changed. Once you take a step you will fall. For walls on, the value is 1. To cut if off, change it to any number you wish as long as it?s not 1 (like 0). Hard to find so search for the address 00AD00D4.
+
+
+
+
+Slanted object jump: 1
+
+*Explanation: When a person steps on a slanted surface, you can control the physics. At normal state it?s 1. To be pushed down type in a positive # (10-50 for best results, really high numbers push you down to fast and will kill you). To be shot up type in a -# (I like putting -50 to -100 in conquest, and -200 and up for jedi?s). Hard to search for look for the address 00AD788C.
+
+
+
+Jetpack: 1
+
+*Explanation: Your jetpack is 1 when full.
+
+
+
+
+Water level: 1 (or 7, I forget, pretty sure it?1) kash, 5 nab, -8 kam
+
+*Explanation: Green float value. It?s 1 on Kashyyyk, -8 on kam. Maps with no water, the value does nothing. You can get tanks that hover to ?fly? for they hover above water instead of staying on the ground. Once water is risen, so will the tanks. People in the water risen will drown and not be able to shoot. Only affects people who are in the areas where water is (some water is under floors you could still drown in some places). You can?t actually see the water rise.
+
+Spawn timer: 0-15
+
+*Explanation: Easier version of the spawn timer. Never search for the exact number like 9 seconds cuz it?s more like 9.9234870. To find the standard value of timer find the always changing values first. Look at that address and memorize it. Search for the #15. Scroll down until you find the address? that are very similar to the ones you have memorized. If you want the timer off, type 1.1. The way this works is when a number counts down and reaches 0, it goes back up to 15. By changing it to 1.1, it will count down from there. Any number lower will sometimes prevent you from spawning in. If you change it to 999, when the timer reaches 0, it will count down from 999. This # does not need to be frozen unless you plan on changing maps. You can save this value too so you won?t have to search it later.
+
+
+
+Auto-turret timer- 0-60
+
+*Explanation: Haven?t perfected this yet but the timer of a turret is 60 seconds.
+
+
+
+Leaving Battlefield timer: -6 to 0
+
+*Explanation: Very strange. You would expect the value to count down, but instead it counts up, from -6 to 0. In the battlefield it?s -6. When it reaches 0 you die. Of course any 4-byte values takes less time to find, but floats are easier to understand.

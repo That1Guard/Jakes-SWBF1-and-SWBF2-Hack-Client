@@ -1,0 +1,40 @@
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.exe
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.pdb
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.xml
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.Form1.resources
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.Resources.resources
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.exe
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.xml
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.pdb
+C:\Users\Jake\AppData\Local\Temporary Projects\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox1.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.exe
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.xml
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.pdb
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.exe
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.pdb
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.xml
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox1.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox2.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.Form1.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.Resources.resources
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jake\documents\visual studio 2010\Projects\Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox3.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.pdb
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\bin\Debug\Jakes SWBF1 PC Hack v1.0.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox1.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox2.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.AboutBox3.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.Form1.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes_SWBF1_PC_Hack_v1._0.Resources.resources
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.exe
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.xml
+C:\Users\Jake\Documents\Visual Studio 2010\Projects\Jakes SWBF1 PC Hack\Jakes SWBF1 PC Hack v1.0\obj\x86\Debug\Jakes SWBF1 PC Hack v1.0.pdb

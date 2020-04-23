@@ -1,0 +1,39 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048) //2kb should be enough
+label(returnhere)
+label(originalcode)
+label(exit)
+
+0054FE64:
+jmp newmem
+nop
+returnhere:
+
+newmem:
+mov [ebx+00000512],9990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],990
+add [ebx+00000512],600
+originalcode:
+mov [ebx+00000512],al
+
+exit:
+jmp returnhere
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0054FE64:
+mov [ebx+00000512],al
+//Alt: db 88 83 12 05 00 00

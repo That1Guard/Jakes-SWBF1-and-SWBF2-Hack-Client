@@ -1,0 +1,46 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem2,2048) //2kb should be enough
+label(returnhere2)
+label(exit2)
+
+005523D1:
+jmp newmem2
+nop
+returnhere2:
+
+newmem2:
+nop
+
+exit2:
+jmp returnhere2
+alloc(newmem,2048) //2kb should be enough
+label(returnhere)
+label(originalcode)
+label(exit)
+
+0055097C:
+jmp newmem
+nop
+returnhere:
+
+newmem:
+fadd dword ptr [00bdf0e8]
+originalcode:
+fsubr dword ptr [00bdf0e8]
+
+exit:
+jmp returnhere
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem2)
+005523D1:
+mov [ebx+000007a4],al
+//Alt: db 88 83 A4 07 00 00
+dealloc(newmem)
+0055097C:
+fsubr dword ptr [00bdf0e8]
+//Alt: db D8 2D E8 F0 BD 00

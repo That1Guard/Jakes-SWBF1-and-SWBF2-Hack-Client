@@ -1,0 +1,55 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem2,2048) //2kb should be enough
+label(returnhere2)
+label(originalcode2)
+label(exit2)
+
+newmem2: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode2:
+jmp 0059EA56
+mov byte ptr [esi+01],FF
+
+exit2:
+jmp returnhere2
+
+0059EA50:
+jmp 0059EA52
+returnhere2:
+
+alloc(newmem,2048) //2kb should be enough
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+jne 0059EA96
+mov eax,[esi-1A]
+
+exit:
+jmp returnhere
+
+0059EA46:
+jne 0059EA52
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem2)
+0059EA50:
+jmp 0059EA56
+mov byte ptr [esi+01],FF
+//Alt: db EB 04 C6 46 01 FF
+dealloc(newmem)
+0059EA46:
+jne 0059EA96
+mov eax,[esi-1A]
+//Alt: db 75 4E 8B 46 E6

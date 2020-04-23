@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Jakes SWBF1 Hack v1.0", "Jakes SWBF1 PC Hack v1.0\Jakes SWBF1 Hack v1.0.vbproj", "{0E6F199A-360D-48D0-8C99-8049294F43E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E6F199A-360D-48D0-8C99-8049294F43E1}.Debug|x86.ActiveCfg = Debug|x86
+		{0E6F199A-360D-48D0-8C99-8049294F43E1}.Debug|x86.Build.0 = Debug|x86
+		{0E6F199A-360D-48D0-8C99-8049294F43E1}.Release|x86.ActiveCfg = Release|x86
+		{0E6F199A-360D-48D0-8C99-8049294F43E1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

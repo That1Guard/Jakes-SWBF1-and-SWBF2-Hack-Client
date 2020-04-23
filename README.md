@@ -1,7 +1,7 @@
 # Jakes SWBF1 and SWBF2 Hack Client
 An old SWBF1 (Legacy) and SWBF2 (Legacy) standalone injection hack client.
 #
-This is an upload to reprovide the files used to make this standalone hack client. I am not its original creator (perhaps "Jake") but noted in its own README file that it was created by the "VA" and the "RAPTOR" community.
+This is an upload to reprovide the files used to make this standalone hack client. I am not its original creator and am unsure of its main contributor of it (perhaps "Jake") but noted in its own README file that it was created by the "VA" and the "RAPTOR" community.
 However, this was publically provided to the public through a YouTube url when I discovered it around 2014-2016. After a few years, I looked for its existance before I could not find it at all.
 
 This file was provided no liscense at all, so it shall stay as that. There are built binaries of the files that is suggested to work on older version of Battlefront2.exe. (It has been noted to not work on the STEAM version for as of 04/23/2020 || Note: I am testing only SWBF2 in this instance.)
